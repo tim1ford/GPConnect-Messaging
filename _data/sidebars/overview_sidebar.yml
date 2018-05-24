@@ -1,0 +1,102 @@
+entries:
+- title: GP Connect Messaging
+  levels: one
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Capabilities
+      url: /overview_priority_capabilities.html
+      output: web
+    - title: First of Type
+      url: /overview_first_of_type.html
+      output: web
+    - title: Glossary
+      url: /overview_glossary.html
+      output: web
+      
+      subfolders:
+      - title: Release notes
+        output: web
+        subfolderitems:
+ 
+  - title: Design approach
+    output: web
+    folderitems:
+
+    - title: Design principles
+      url: /design_principles.html
+      output: web
+      type: homepage
+    - title: Specification versioning
+      url: /design_product_versioning.html
+      output: web
+          
+  - title: Implement a capability
+    output: web
+    folderitems:
+    - title: Send Document
+      url: /senddocument.html
+      output: web
+    - title: <b class="capability-not-available">Send Task</b>
+      url: /sendtask.html
+      output: web
+    - title: <b class="capability-not-available">Send Update</b>
+      url: /sendupdate.html
+      output: web
+
+  - title: Integrate with Spine
+    output: web
+    folderitems:
+    - title: Spine integration illustrated
+      url: /integration_illustrated.html
+      output: web           
+    - title: Using MESH
+      url: /integration_mesh.html
+      output: web
+    - title: Using ITK3
+      url: /integration_itk3.html
+      output: web
+      
+  - title: Test and assure
+    output: web
+    folderitems:
+    - title: Testing assets
+      url: /testing_deliverables.html
+      output: web
+    - title: Test environments
+      url: /testing_environments.html
+      output: web
+    - title: Message Sender testing
+      url: /testing_sender.html
+      output: web
+    - title: Message Receiver testing
+      url: /testing_receiver.html
+      output: web
+
+  - title: External links
+    output: web
+    folderitems:     
+    - title: GPC  - FHIR&reg APIs for GP IT Systems
+      external_url: https://nhsconnect.github.io/gpconnect/
+      output: web
+    - title: GPC Messaging repository
+      external_url: https://github.com/nhsconnect/GPConnect-Messaging
+      output: web
+    - title: GPC NHS Digital
+      external_url: https://digital.nhs.uk/article/1275/GP-Connect
+      output: web
+    - title: GPC Developer Network
+      external_url: http://developer.nhs.uk/library/interoperability/gp-connect/
+      output: web
+    - title: MESH
+      external_url: https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh
+      output: web
+    - title: MESH API
+      external_url: https://nhsconnect.github.io/spine-mesh/
+      output: web
