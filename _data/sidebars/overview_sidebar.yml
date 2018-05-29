@@ -82,7 +82,7 @@ entries:
   - title: External links
     output: web
     folderitems:     
-    - title: GPC  - FHIR&reg APIs for GP IT Systems
+    - title: GPC  - FHIR&reg APIs
       external_url: https://nhsconnect.github.io/gpconnect/
       output: web
     - title: GPC Messaging repository
@@ -100,3 +100,7 @@ entries:
     - title: MESH API
       external_url: https://nhsconnect.github.io/spine-mesh/
       output: web
+    - title: ITK3
+      external_url: https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/
+      output: web
+      

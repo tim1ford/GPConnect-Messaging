@@ -1,30 +1,18 @@
 ---
 title: Priority capabilities for GP Connect
 keywords: usecases
-tags: [use_case,htmlgetcarerecord,getcarerecord,appointments,tasks]
+tags: [use_case,senddocument, capability]
 sidebar: overview_sidebar
 toc: false
 permalink: overview_priority_capabilities.html
-summary: A brief introduction to the priority GP Connect capabilities
+summary: A brief introduction to the priority GP Connect Messaging capabilities
 ---
 
+Following the convention of the GP Connect FHIR&reg; API specification, GP Connect Messaging has identified three main categories of update operations as the following GP Connect Messaging *capabilities*:
 
-GP Connect is initially focussing on delivering the following three main interoperability capabilities:
+1. [Send Document](senddocument.html)
+2. Send Task
+3. Send Update
 
-## Access Record ##
-Access a patient's care record for the purpose of direct care.
-
-[![Img](images/overview/folder.png) Access Record HTML](accessrecord.html)
-
-[![Img](images/overview/structured.png) Access Record Structured](accessrecord_structured.html)
-
-## Appointments ##
-Manage appointments in order to co-ordinate access to care.
-
-[![Img](images/overview/calendar.png) Appointment Management](appointments.html)
-
-## Tasks ##
-Manage tasks in order to work effectively across care settings.
-
-[![Img](images/overview/tasks.png) Task Management](tasks.html)
+The Send Document capability is defined in this version of the specification, with two additional capabilities as roadmap items.
 

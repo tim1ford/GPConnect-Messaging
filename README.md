@@ -1,25 +1,25 @@
 <img src="images/logo.png" height=72>
 
-# GP Connect
+# GP Connect Messaging
 
-This is the source repository for the GP Connect specification.
+This is the source repository for the GP Connect Messaging specification.
 
-The current specification version is held in the master branch, and published to <a href="https://nhsconnect.github.io/gpconnect/">GitHub pages</a>.
+The current specification version is held in the master branch, and published to <a href="https://nhsconnect.github.io/gpconnect-messaging/">GitHub pages</a>.
 
 Previous versions of the specification are held in release/* branches (and tagged), and published to the <a href="https://developer.nhs.uk/gp-connect-specification-versions/">NHS Developer Network</a>.
 
 ## Building the specification
 
-To build the GP Connect specification locally
+To build the GP Connect Messaging specification locally
 
-- Clone the repository: `git clone https://github.com/nhsconnect/gpconnect.git`
+- Clone the repository: `git clone https://github.com/nhsconnect/gpconnect-messaging.git`
 - Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/#homebrew)
 - Install Jekyll
   - Install [Jekyll](https://jekyllrb.com/docs/installation/) for OS X/Linux
   - Install [Jekyll](https://jekyllrb.com/docs/windows/) for Windows
-- Navigate to your gpconnect directory and run: `bundle install`
+- Navigate to your gpconnect-messaging directory and run: `bundle install`
 - Now run Jekyll: `bundle exec jekyll serve`
-- Browse website [Browser](http://localhost:4005): `http://localhost:4005`
+- Browse website [Browser](http://localhost:4006): `http://localhost:4006`
 
 ### Troubleshooting
 
