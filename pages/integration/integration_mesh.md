@@ -1,7 +1,7 @@
 ---
 title: MESH
 keywords: spine, mesh, integration
-tags: [integration]
+tags: [integration, spine, mesh]
 sidebar: overview_sidebar
 permalink: integration_mesh.html
 summary: "Overview of the role of MESH in GP Connect messaging"
@@ -67,7 +67,7 @@ TODO: further standard header requirements
 
 Configuration rules
 
-## Sending a MESH Message ##
+### Sending a MESH Message ###
 
 Example DAT and CTL files?
 
