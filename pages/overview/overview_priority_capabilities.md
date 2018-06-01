@@ -1,7 +1,7 @@
 ---
 title: Priority capabilities for GP Connect
 keywords: usecases
-tags: [use_case,senddocument, capability]
+tags: [usecase]
 sidebar: overview_sidebar
 toc: false
 permalink: overview_priority_capabilities.html

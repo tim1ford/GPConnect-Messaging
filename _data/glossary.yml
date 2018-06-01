@@ -9,3 +9,6 @@ gpsoc_contract: "GP System of Choice contract whereby a number of suppliers have
 gpconnect_licence: "The terms and conditions for usage of the GP Connect service."
 proxy_server: "A server that acts as an intermediary for requests from clients seeking resources from other servers"
 spine: "Is a collection of national applications, services and directories which support the health and social care sector in the exchange of information in national and local IT systems"
+mesh: "Messaging service for health and social care. The NHS asynchronous messaging platform. This follows a post restante model: where messages are picked up from mailboxes the central MESH server."
+itk3: "Interoperability Toolkit version 3. A FHIR&reg; profile for a message which contains standard message metadata to faciliate standard message handling options." 
+federation: "A list of the organisations which are members of the federation, for example as a list of ODS codes."

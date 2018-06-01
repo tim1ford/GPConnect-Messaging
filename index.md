@@ -1,7 +1,7 @@
 ---
 title: Introduction to GP Connect Messaging
 keywords: homepage
-tags: [getting_started]
+tags: [messaging, overview, mesh, itk3]
 sidebar: home_sidebar
 permalink: index.html
 toc: false

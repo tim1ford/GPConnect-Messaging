@@ -1,15 +1,13 @@
 allowed-tags:
-  - getting_started
+  - overview
   - first_of_type
   - usecase
   - fhir
   - structured
-  - foundations
-  - htmlgetcarerecord
-  - getcarerecord
-  - appointments
+  - mesh
+  - itk3
+  - payload
   - tasks
-  - engagement
   - design  
   - development
   - integration  
