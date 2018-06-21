@@ -1,5 +1,5 @@
 ---
-title: Priority capabilities for GP Connect
+title: Priority capabilities for GP Connect Messaging
 keywords: usecases
 tags: [usecase]
 sidebar: overview_sidebar
