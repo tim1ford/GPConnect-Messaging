@@ -40,4 +40,6 @@ Glossary of common terms and abbreviations used throughout the GP Connect Messag
 #### Federation ####
 {{site.data.glossary.federation}}
 
+#### ODS Code ####
+{{site.data.glossary.odscode}}
 

@@ -12,8 +12,8 @@ MESH is the strategic platform for asynchronous messaging in the NHS.
 Viewed very simply, MESH is like a [post-restante](https://en.wikipedia.org/wiki/Poste_restante) service for electronic message delivery. Messages flow around the NHS using MESH as follows:
 
 1. Sender creates message and sends to the MESH server
-2. MESH server puts the message in the destination mailbox
-3. Receiver retrieves the message from their inbox
+2. MESH server places the message in the destination mailbox
+3. Receiver collects the message from their inbox
 
 For a more complete introduction to MESH, including details on how to get going if your organisation does not yet have MESH connectivity, see [MESH - Message Exchange for Health and Social Care]()
 
