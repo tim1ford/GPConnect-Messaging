@@ -1,20 +1,7 @@
 entries:
-- title: Send Document
-  product: Send Document
+- title: GP Connect Messaging
+  levels: one
   folders:
-
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage
-      output: pdf
-      type: frontmatter
 
   - title: Overview
     output: web, pdf
@@ -36,20 +23,27 @@ entries:
       url: /senddocument_fedcon_overview.html      
       output: web, pdf
 
-    - title: Triggering message creation
-      url: /senddocument_fedcon_trigger.html      
-      output: web, pdf
-
-    - title: MESH header configuration
-      url: /senddocument_fedcon_mesh.html      
-      output: web, pdf
+    - title: Payload requirements
+      url: /senddocument_fedcon_payload.html      
+      output: web, pdf  
 
     - title: ITK3 header requirements
       url: /senddocument_fedcon_itk3.html      
       output: web, pdf
-        
-    - title: Payload requirements
-      url: /senddocument_fedcon_payload.html      
-      output: web, pdf     
-
+      
+    - title: MESH message configuration
+      url: /senddocument_fedcon_mesh.html      
+      output: web, pdf
+      
+    - title: Error Handling
+      url: /senddocument_fedcon_errors.html      
+      output: web, pdf           
+      
+    - title: Triggering message creation
+      url: /senddocument_fedcon_trigger.html      
+      output: web, pdf
+      
+    - title: Message example
+      url: /senddocument_fedcon_example.html      
+      output: web, pdf      
           

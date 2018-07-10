@@ -1,7 +1,7 @@
 allowed-tags:
   - overview
   - first_of_type
-  - usecase
+  - use-case
   - fhir
   - structured
   - mesh
