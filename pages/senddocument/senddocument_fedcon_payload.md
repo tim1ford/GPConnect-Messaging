@@ -11,6 +11,8 @@ Please refer to [Send Document - Payload structure](senddocument_payload) for a 
 
 The following sections describe the resources which form the payload. I.e. the resources which will be present as entries of the [ITK-Payload-Bundle](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Payload-Bundle-1) resource which acts as a container for the payload. 
 
+A [message example](senddocument_payload) is provided which illustrates these requirements to aid understanding.
+
 ## Task resource ##
 
 The [HL7 FHIR Task](https://www.hl7.org/fhir/task.html) resource is used.
@@ -28,7 +30,7 @@ A Task resource SHALL be present in the payload, and the following elements SHAL
 | requester.agent | Reference to federated practice Practitioner resource profiled to [https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1) in the payload. |
 | requester.onBehalfOf |Reference to federated practice Organization resource profiled to [https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1) in the payload. |
 | owner | Reference to registered practice Organization resource profiled to [https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1) in the payload. |
-| Input	| Contains embedded PDF document which describes the federated encounter in base 64 encoded format. May also contain additional binary document such as ECG record. |
+| input	| **Federated Encounter Summary** <br/>The input element MUST contain a federated encounter summary PDF document which is expressed as a input instance of type Attachment. Here `input.type.text` MUST be a fixed value of "Federated Encounter Summary", and `input.value.contentType` MUST be set to a fixed value of "application/pdf". The PDF binary data MUST be included in the `input.value.data` element in base 64 encoded format. <br/> <br/> **Additional input elements**<br/>The payload MAY also contain additional binary documents each expressed as an additional instance of the task.input element where `input.value[x]` is of type Attachment. For each such instance, `input.type.text` SHALL contain text which acts as a label for the binary attachment(e.g. "ECG data"), and `input.value.contentType` SHALL define the content type of the attachment |
 
 
 ## Organization Resource ##
