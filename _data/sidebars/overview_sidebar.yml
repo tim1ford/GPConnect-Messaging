@@ -66,19 +66,16 @@ entries:
   - title: Test and assure
     output: web
     folderitems:
-    - title: Testing assets
-      url: /testing_deliverables.html
-      output: web
-    - title: Test environments
-      url: /testing_environments.html
-      output: web
     - title: Message Sender testing
       url: /testing_sender.html
       output: web
     - title: Message Receiver testing
       url: /testing_receiver.html
       output: web
-
+    - title: Test environments
+      url: /testing_environments.html
+      output: web
+      
   - title: External links
     output: web
     folderitems:     
